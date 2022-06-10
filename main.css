@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header ul{
+    list-style-type: none;
+}
+.header ul li{
+	display: inline;
+	padding: 0px 21px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 135px;
+}
+.header .benphai p{
+	display: inline;
+	margin-right: 47px;
+}
+.nutmaucam{
+	border-radius: 6px;
+	padding: 9px 19px;
+	background-color: #FE5000; color: white;
+	border: none;
+}
+.banner {
+	height: 530px; 
+	background-color: #1F0A00; color: white;
+	padding: 85px 135px;
+	display: flex;
+	align-items: center;
+}
+.banner img {
+	height: 100%;
+}
+.banner .bentrai h1{
+	font-size: 70px;
+}
+.banner .bentrai p{
+	width: 70%;
+	padding: 22px 0px 38px 0px;
+	font-size: 18px;
+	line-height: 30px;
+}
+.sec2 {
+	display: flex;
+	height: 250px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	margin:0px 298px;
+}
+.oso h3{
+	font-size: 40px;
+	font-weight: 600;
+	padding-bottom: 7px;
+}
+.sec3{
+	text-align: center;
+}
+.sec3 p{
+	padding: 18px 0px 70px 0px;
+	Weight:400;
+    font-size:16px;
+    Line-height:28px;
+}
+.motdong{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 170px;
+}
+.card p {
+	padding: 16px 0px 38px 0px;
+	Weight:400;
+    font-size:16px;
+    Line-height:28px;
+}
+.card h3{
+	padding-top: 36px;
+}
+.card{
+	background-color: #F6F6F6;
+	padding-top: 38px;
+	width: 20%;
+}
+.card:hover{
+	background-color:#FE5000;
+}
+.sec4{
+	background-color: #FFFAF8;
+	padding: 100px 135px;
+	text-align: center;
+	height: 1230px;
+}
+.sec4 p{
+	padding: 18px 0px 70px 0px;
+    Line-height:28px;
+}
+.sec4 .Dong{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.cardbig{
+	background-color: white;
+	padding: 22px;
+	border-radius: 14px;
+	text-align: left
+}
+.cardbig .cuoi{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cardbig h2{
+	padding: 4px 0px 18px 0px;
+}
+.cardbig i{
+	padding-top: 22px;
+}
+.cardbig input{
+	border: 1px solid;
+    border-radius: 4px;
+	padding: 6px 14px;
+}
+.sec4 .nutmaucam{
+	margin-top: 55px;
+}
+.footer{
+	height: 449px;
+	background-color: #1F0A00;
+	color: white;
+	padding: 100px 135px;
+}
+.footer .dongmot{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer .dongmot .nutbam{
+	margin-right: 285px;
+}
+.footer .nutbam .duongvien{
+	background-color: transparent;
+	border: 0.5px solid white;
+	margin-left: 24px;
+}
+.footer h1{
+	font-size: 40px;
+}
